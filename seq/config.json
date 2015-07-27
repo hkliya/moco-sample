@@ -1,0 +1,17 @@
+[
+  {
+    "request": {
+      "uri": "/seq"
+    },
+    "responses" : [
+      {
+        "file": {
+          "name": "r1.response"
+        }
+      }, {
+        "file": {
+          "name": "r2.response"
+        }
+      }]
+  }
+]

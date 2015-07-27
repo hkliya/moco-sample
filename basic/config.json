@@ -1,0 +1,12 @@
+[
+  {
+    "request": {
+      "uri": "/users"
+    },
+    "response": {
+      "file": {
+        "name": "users.response"
+      }
+    }
+  }
+]
