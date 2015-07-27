@@ -50,6 +50,7 @@ java -jar moco-runner-0.10.2.jar http -p 80 -c config.json
 
 #### 动态数据
 有时同一个接口，相同的URL，相同的参数，但需要返回不同的数据。那可以使用这个特性，基本的原理是配置时，将返回设置成多个，moco会按请求的顺序依次返回，次数大于返回个数时将始终返回最后一条数据。
+官方是不支持这个特性的，本示例使用的是经过扩展的Moco，源码地址：[https://github.com/hkliya/moco](https://github.com/hkliya/moco)
 
 `config.json`
 
